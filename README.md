@@ -18,7 +18,7 @@ yarn add esbuild-plugin-hjson -D
 
 ```js
 const esbuild = require('esbuild')
-const hjson = require('../index')
+const hjson = require('esbuild-plugin-hjson')
 
 esbuild.build({
   bundle: true,
